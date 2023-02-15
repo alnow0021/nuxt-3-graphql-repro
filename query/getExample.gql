@@ -1,0 +1,13 @@
+query getPages {
+  pages(
+    filters: {
+      locale: {
+        eq: "en"
+      }
+    }
+  ) {
+    data {
+      id
+    }
+  }
+}
